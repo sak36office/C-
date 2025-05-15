@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
     // Data Type and Variable
-    list<int> digit = {0,3,5,7,8,9,9,2,8};
+    
     string name = "tanachot";
     string email = "tanachotcallsak36office@gmail.com";
     string phone = "0935789928";
@@ -21,11 +21,14 @@ int main()
     bool isActive = true;
 
     vector<char> alph = {'t','a','n','a','c','h','o','t'};
-
+    list<int> digits = {0,3,5,7,8,9,9,2,8};
+    struct coor 
+    {
+        double x;
+        double y;
+    };
     
     
-
-
 
     return 0;
 }
